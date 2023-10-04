@@ -19,11 +19,16 @@ word3 = ''.join([str(elem) for elem in word3])
 
 print("H A N G M A N")
 input1 = []
+
+
 i = 0
+# This is a while loop
 while i < 8:
     word3 = ''.join([str(elem) for elem in word3])
     print(f'\n{word3}', end = ' ')
     if '-' in word3:
+
+        #This will take an input from the user by displaying the sentence in inverted comma
         word = input('\nInput a letter: ')
         
         if len(word) != 1 or word == ' ':
