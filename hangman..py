@@ -1,9 +1,17 @@
-# Write your code here
+# Import the python library called random to generate random words
 import random
 
+# 4 words are saved in an array list
 word2 = random.choice(['python', 'java', 'kotlin', 'javascript'])
+
+
+#The selected random word will be saved in the word3 variable
 word3 = word2
+
+#This will put the word as a list
 word3 = list(word3)
+
+#This is a for loop to iterate thorugh all the index in the word3 variable and print a dash 
 for i in range(len(word2)):
         word3[i] = '-'
 
